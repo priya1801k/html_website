@@ -1,0 +1,74 @@
+basic resets
+body{
+    /*margin:1rem;*/
+    /*By default the margin is 8 px*/
+    margin: 0rem 2rem;
+}
+*{
+    font-family: 'League Gothic', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+header h1{
+    margin-left: 2rem;
+}
+nav{
+    margin-right: 2rem;
+    height:90%;
+}
+a{
+    text-decoration: none;/*to remove underline in anchor*/
+    font-weight: bolder;
+}
+ul{
+    display:flex;
+    justify-content: space-evenly;
+    width:20rem;
+    /*border: 1px solid red;*/
+}
+ul>li{
+    width:30%;
+    font-size:1.5rem;
+}
+.main-image{/*just remember this*/
+    width:100%;/*or 100vw*/
+    height:auto;/*can use vh as well depends on situation*/
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.parent{
+    margin-top: 2rem;;
+    /*border:4px solid red;*/
+    display:flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.child{
+    /*border:4px solid blue;*/
+    width:30%;
+}
+li{
+    list-style: none;/*to remove dot from list*/
+}
+a:link{
+    color: green;
+}
+a:hover{
+    color: red;
+}
+footer{
+    height: 4rem;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-weight: 400;/*boldness*/
+    font-size: 1.5rem; 
+    text-transform: uppercase;/*convert to uppercase*/
+}
+.footer-parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
